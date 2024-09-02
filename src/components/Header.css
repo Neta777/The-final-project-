@@ -1,0 +1,28 @@
+.theLink {
+    margin-left: 150px;
+
+
+    color: #fff;
+    padding: 10px 0;
+
+    text-align: center;
+
+    width: 100%;
+}
+
+.bg-body-tertiary {
+    background-color: #5e5c5c !important;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+
+
+.theLink:hover {
+    color: #ddd;
+
+}

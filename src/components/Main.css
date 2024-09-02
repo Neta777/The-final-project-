@@ -1,0 +1,75 @@
+.card {
+    background: linear-gradient(to bottom right, #f3f4f6 0px, #e2e2e2 600px);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 300ms ease, box-shadow 300ms ease;
+
+    margin-left: 450px;
+    margin-top: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 16px;
+
+}
+
+.card-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+    color: #1b1c1d;
+    margin-bottom: 24px;
+
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+.card-body>span {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(36, 35, 35)
+}
+
+.button {
+    border-radius: 25px;
+    padding: 8px 24px;
+    margin-left: 50px;
+    font-size: 18px;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #a0a3a5;
+    border: none;
+    color: white;
+
+}
+
+.button:hover {
+    background-color: #313335;
+    transform: scale(1.05);
+}
+
+.button:focus {
+    outline: none;
+}
